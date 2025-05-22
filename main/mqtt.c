@@ -6,9 +6,10 @@
 #include "esp_event.h"
 #include "esp_netif.h"
 #include "mqtt_client.h"
-#include <mqtt.h>
 
-//isrgrootx1 certificate
+static const char *TAG = "MQTT";
+
+// isrgrootx1 certificate
 static const char ca_cert[] = R"EOF(
 -----BEGIN CERTIFICATE-----
 MIIFazCCA1OgAwIBAgIRAIIQz7DSQONZRGPgu2OCiwAwDQYJKoZIhvcNAQELBQAw
@@ -42,8 +43,6 @@ mRGunUHBcnWEvgJBQl9nJEiU0Zsnvgc/ubhPgXRR4Xq37Z0j4r7g1SgEEzwxA57d
 emyPxgcYxn/eR44/KJ4EBs+lVDR3veyJm+kXQ99b21/+jh5Xos1AnX5iItreGCc=
 -----END CERTIFICATE-----
 )EOF";
-
-static const char *TAG = "MQTT";
 
 static esp_mqtt_client_handle_t client;
 

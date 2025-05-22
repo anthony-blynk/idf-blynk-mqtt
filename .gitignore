@@ -44,6 +44,7 @@ Desktop.ini
 # ESP-IDF components (uncomment if you're not tracking components)
 /components/
 
+/managed_components/
 # Partition tables
 *.csv
 
