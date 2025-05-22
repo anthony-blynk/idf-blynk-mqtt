@@ -1,0 +1,55 @@
+# ESP-IDF build directories
+/build/
+/sdkconfig
+
+# Generated files
+/sdkconfig.old
+*.bin
+*.elf
+*.map
+*.lst
+
+# VSCode specific
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Eclipse IDE
+.project
+.cproject
+.settings/
+
+# CLion IDE
+.idea/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ESP-IDF components (uncomment if you're not tracking components)
+/components/
+
+# Partition tables
+*.csv
+
+# Flash arguments
+/flash_args
+
+# Logs and misc
+/logs/
+*.log

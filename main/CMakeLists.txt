@@ -1,0 +1,16 @@
+idf_component_register(
+    SRCS 
+        "main.c"
+        "mqtt.c"
+        "blynk_main.cpp"
+    INCLUDE_DIRS 
+        "."
+    REQUIRES
+        blynk-library
+        arduino-esp32
+        app_update
+        mbedtls
+        esp-tls
+        mqtt
+        json
+)
