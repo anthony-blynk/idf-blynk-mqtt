@@ -111,6 +111,6 @@ void mqtt_publish(const char *topic, const char *json_payload)
         ESP_LOGE(TAG, "publish failed: %i", rc); 
     } else 
     {
-        ESP_LOGI(TAG, "published to topic: %s\n%s", topic, json_payload); 
+        ESP_LOGI(TAG, "!!!published to topic: %s\n%s", topic, json_payload); 
     }
 }

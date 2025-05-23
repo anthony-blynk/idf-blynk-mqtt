@@ -25,8 +25,8 @@ void send_data(void)
     someDS2 += 2;
 
     cJSON *root = cJSON_CreateObject();
-    cJSON_AddNumberToObject(root, "Some1", someDS1);
-    cJSON_AddNumberToObject(root, "Some2", someDS2);
+    cJSON_AddNumberToObject(root, "SomeDS1", someDS1);
+    cJSON_AddNumberToObject(root, "SomeDS2", someDS2);
     char *json_string = cJSON_Print(root);
     cJSON_Delete(root); 
 

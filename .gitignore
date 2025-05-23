@@ -1,6 +1,7 @@
 # ESP-IDF build directories
 /build/
 # /sdkconfig
+dependencies.lock
 
 # Generated files
 /sdkconfig.old

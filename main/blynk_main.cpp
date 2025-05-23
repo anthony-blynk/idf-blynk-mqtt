@@ -6,8 +6,8 @@
 
 #include <Arduino.h>
 
-#define BLYNK_TEMPLATE_ID "TMPL5YluS7bTY"
-#define BLYNK_TEMPLATE_NAME "LED ESP32 1"
+#define BLYNK_TEMPLATE_ID "TMPL5GXJpWj64"
+#define BLYNK_TEMPLATE_NAME "Demo1"
 
 #define BLYNK_FIRMWARE_VERSION        "0.1.0"
 
