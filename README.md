@@ -18,9 +18,9 @@ There are two sdkconfig setting that must be updated for the Blynk Library compo
 - set CONFIG_FREERTOS_HZ=1000
 - set CONFIG_ESP_TLS_PSK_VERIFICATION=y
 
-(these are set in the committed sdkconfig file but if you use your own you must set these)
+(these are set in the committed sdkconfig file in this repo but if you use your own sdkconfig file you must set these two properties)
 
-Then clone the Blynk library into the components folder:
+Then clone the Blynk library IDF Componnet into the components folder:
 ```
 mkdir components
 cd components
