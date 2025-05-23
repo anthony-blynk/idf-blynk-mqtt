@@ -10,7 +10,7 @@ Shows Wifi Provisioning, OTA firmware updates, and sending multiple datastream r
 
 # Setup
 
-This uses the Blynk component, and that has a dependency on the ESP32 Arduino IDF Component which will be installed automatically.
+This uses a Blynk IDF component, and that has a dependency on the ESP32 Arduino IDF Component which will be installed automatically.
 
 Clone this repo.
 
